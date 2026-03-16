@@ -1,20 +1,29 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# 📄 Matías Escobar — CV Dinámico
 
-# Run and deploy your AI Studio app
+Curriculum Vitae interactivo, moderno y bilingüe (ES / EN) construido con **React + Vite + TypeScript**.
 
-This contains everything you need to run your app locally.
+## ✨ Características
 
-View your app in AI Studio: https://ai.studio/apps/4a71e769-6d22-4d36-9ddd-0cb719c37407
+- 🌐 **Bilingüe** — Español e Inglés con cambio de idioma instantáneo
+- 🎨 **Diseño oscuro premium** — Glassmorphism, gradientes y micro-animaciones con Framer Motion
+- 📱 **Responsive** — Adaptado para mobile, tablet y desktop
+- 🔍 **Proyectos filtrables** — Búsqueda en tiempo real por nombre, descripción o tecnología
+- 💡 **Habilidades interactivas** — Modal con detalle de nivel por cada skill
+- 📬 **Formulario de contacto** — Integrado con EmailJS para envíos sin backend propio
+- ⬇️ **Descarga de CV** — Botón para descargar el PDF directamente
+- 🔝 **Scroll to Top** — Botón flotante que aparece al hacer scroll
 
-## Run Locally
+## 🛠️ Stack Tecnológico
 
-**Prerequisites:**  Node.js
+| Tecnología | Uso |
+|---|---|
+| React 19 + TypeScript | UI principal |
+| Vite 6 | Bundler y servidor de desarrollo |
+| Tailwind CSS v4 | Estilos utilitarios |
+| Framer Motion (`motion`) | Animaciones |
+| Lucide React + React Icons | Íconos |
+| EmailJS Browser | Envío de formulario de contacto |
 
+## 📄 Licencia
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+Uso personal. Siéntete libre de adaptar este template para tu propio CV.
