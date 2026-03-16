@@ -24,6 +24,57 @@ Curriculum Vitae interactivo, moderno y bilingüe (ES / EN) construido con **Rea
 | Lucide React + React Icons | Íconos |
 | EmailJS Browser | Envío de formulario de contacto |
 
+## 🚀 Cómo correr el proyecto localmente
+
+### Requisitos
+
+- **Node.js** v18 o superior
+
+### Instalación
+
+```bash
+# 1. Instalar dependencias
+npm install
+
+# 2. Crear el archivo de variables de entorno
+cp .env.example .env.local
+
+# 3. Editar .env.local con tus credenciales de EmailJS
+
+# 4. Iniciar el servidor de desarrollo
+npm run dev
+```
+
+La app estará disponible en `http://localhost:3000`.
+
+## ⚙️ Configuración
+
+### Variables de entorno (`.env.local`)
+
+```env
+VITE_EMAILJS_SERVICE_ID=tu_service_id
+VITE_EMAILJS_TEMPLATE_ID=tu_template_id
+VITE_EMAILJS_PUBLIC_KEY=tu_public_key
+```
+
+### Foto de perfil y CV en PDF
+
+- Reemplaza `public/perfil.jpg` con tu foto.
+- Coloca tu PDF en `public/` como `cv-matias-escobar.pdf`.
+
+## 📁 Estructura del proyecto
+
+```
+my_curriculum/
+├── public/                 # Archivos estáticos
+├── src/
+│   ├── App.tsx             # Datos y UI
+│   ├── main.tsx            # Entry point
+│   └── index.css           # Estilos
+├── vite.config.ts          # Configuración de Vite
+└── package.json            # Dependencias
+```
+
 ## 📄 Licencia
 
 Uso personal. Siéntete libre de adaptar este template para tu propio CV.
