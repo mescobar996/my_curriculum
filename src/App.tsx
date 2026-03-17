@@ -55,6 +55,13 @@ const translations = {
         description: "BuggyStore es una API de e-commerce construida con Node.js + Express + SQLite que contiene 16 bugs intencionales distribuidos en sus módulos. Fue diseñada como proyecto de portfolio QA para practicar.",
         tech: ["Postman", "API", "SQL"],
         link: "https://github.com/mescobar996/buggystore_api"
+      },
+      {
+        id: 3,
+        title: "TestCraft AI",
+        description: "Solución avanzada impulsada por IA diseñada para optimizar el ciclo de vida de las pruebas de software (QA). La aplicación permite transformar requisitos funcionales, historias de usuario e incluso capturas de pantalla en casos de prueba detallados, profesionales y listos para ejecutar.",
+        tech: ["AI", "Claude", "Node.js"],
+        link: "https://github.com/mescobar996/testcraft-ai"
       }
     ],
     courses: [
