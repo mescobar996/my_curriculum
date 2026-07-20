@@ -36,9 +36,15 @@ const translations = {
       },
       {
         id: 2,
+        degree: "Especialización en Gestión de la Seguridad Marítima y la Protección Portuaria",
+        institution: "Instituto Universitario de Seguridad Marítima",
+        period: "2026 (En curso)"
+      },
+      {
+        id: 3,
         degree: "Diplomatura en Control de Calidad de Software",
         institution: "Universidad Nacional de Tres de Febrero",
-        period: "2025 - 2026"
+        period: "2025 - 2026 (En curso)"
       }
     ],
     projects: [
@@ -150,9 +156,15 @@ const translations = {
       },
       {
         id: 2,
+        degree: "Specialization in Maritime Security and Port Protection Management",
+        institution: "University Institute of Maritime Security",
+        period: "2026 (In progress)"
+      },
+      {
+        id: 3,
         degree: "Diploma in Software Quality Control",
         institution: "National University of Tres de Febrero",
-        period: "2025 - 2026"
+        period: "2025 - 2026 (In progress)"
       }
     ],
     projects: [
