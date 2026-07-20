@@ -51,17 +51,17 @@ const translations = {
       },
       {
         id: 2,
-        title: "BuggyStore API",
-        description: "BuggyStore es una API de e-commerce construida con Node.js + Express + SQLite que contiene 16 bugs intencionales distribuidos en sus módulos. Fue diseñada como proyecto de portfolio QA para practicar.",
-        tech: ["Postman", "API", "SQL"],
-        link: "https://github.com/mescobar996/buggystore_api"
+        title: "QA Manual Pro",
+        description: "Proyecto de testing manual sobre un e-commerce demo (SauceDemo): Test Plan completo, 32 casos de prueba ejecutados y 10 bugs reales documentados con evidencia, severidad y prioridad — incluyendo 2 defectos críticos que bloquean por completo el checkout.",
+        tech: ["Test Plan", "Manual Testing", "Bug Reporting"],
+        link: "https://github.com/mescobar996/qa-manual-ecommerce"
       },
       {
         id: 3,
-        title: "TestCraft AI",
-        description: "Solución avanzada impulsada por IA diseñada para optimizar el ciclo de vida de las pruebas de software (QA). La aplicación permite transformar requisitos funcionales, historias de usuario e incluso capturas de pantalla en casos de prueba detallados, profesionales y listos para ejecutar.",
-        tech: ["AI", "Claude", "Node.js"],
-        link: "https://github.com/mescobar996/testcraft-ai"
+        title: "QA API Testing",
+        description: "Colección de Postman con 15 requests y 34 assertions sobre una API REST, cubriendo GET/POST/PUT/PATCH/DELETE con casos positivos y negativos. Corrida y verificada con Newman (CLI de Postman): 0 fallos.",
+        tech: ["Postman", "Newman", "API Testing"],
+        link: "https://github.com/mescobar996/qa-api-testing"
       }
     ],
     courses: [
@@ -69,7 +69,7 @@ const translations = {
        id: 1,
         name: "Playwright JS/TS Automation Testing from Scratch & Framework",
         platform: "Rahul Shetty Academy",
-        year: "2026", 
+        year: "2026",
         certificate: "https://udemy-certificate.s3.amazonaws.com/pdf/UC-4c5466a8-5953-4cdc-9863-a02cd10dd1ea.pdf" // Reemplaza con el link real
       },
       {
@@ -165,17 +165,17 @@ const translations = {
       },
       {
         id: 2,
-        title: "E-commerce Automation Framework",
-        description: "Development of an automated E2E testing framework for an e-commerce platform, significantly reducing regression time.",
-        tech: ["Playwright", "TypeScript", "CI/CD"],
-        link: "https://github.com/mescobar996"
+        title: "QA Manual Pro",
+        description: "Manual testing project on a demo e-commerce app (SauceDemo): full Test Plan, 32 executed test cases and 10 real bugs documented with evidence, severity and priority — including 2 critical defects that fully block checkout.",
+        tech: ["Test Plan", "Manual Testing", "Bug Reporting"],
+        link: "https://github.com/mescobar996/qa-manual-ecommerce"
       },
       {
-        id: 2,
-        title: "API Testing Suite",
-        description: "Comprehensive automated testing suite for RESTful endpoints, implementing schema validations and basic load testing.",
-        tech: ["Python", "Pytest", "Postman"],
-        link: "https://github.com/mescobar996"
+        id: 3,
+        title: "QA API Testing",
+        description: "Postman collection with 15 requests and 34 assertions on a REST API, covering GET/POST/PUT/PATCH/DELETE with positive and negative cases. Run and verified with Newman (Postman CLI): 0 failures.",
+        tech: ["Postman", "Newman", "API Testing"],
+        link: "https://github.com/mescobar996/qa-api-testing"
       }
     ],
     courses: [
